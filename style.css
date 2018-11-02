@@ -59,7 +59,8 @@ body {
 
 .rightmenu ul li:first-child, ul li:hover {
 	color: #DC143C;
-	transform: scale(1.1)
+	transform: scale(1.1), 
+	
 }
 
 .text{
@@ -137,37 +138,7 @@ button {
 		width: device-width;
 	}
 
-@media screen and (max-width:736px){
-	.leftmenu h4{
-		margin-left: -33px;
-		margin-top: -6px;
-	}
-	.menu {
-	height: 70px;
-	margin-top: -20px;
-	}
-	
-	body {
-		background-image: url('mobile.jpg');
-	}
-	
-	button {
-		margin-bottom: 18px;
-	    font-size: 23px;
-	    font-family: 'Montserrat', sans-serif;
-	    text-transform: uppercase;
-	    font-weight: bold;
-	    line-height: 40px;
-	    border: 4px solid black;
-	    width: 280px;
-		position: relative;
-		top: -50px;
-	}
-		.rightmenu {
-		margin-top: -1150px;
-	}
-	}
-	
+
 	@media screen and (max-width:1280px){
 	.leftmenu h4{
 		margin-left: -33px;
@@ -197,11 +168,12 @@ button {
 	
 	.rightmenu {
 		margin-top: -1150px;
+		margin-right: 200px;
 	}
 	
 	@media screen and (max-width:680px){
 	.leftmenu h4{
-		margin-left: -33px;
+		margin-left: -36px;
 		margin-top: -6px;
 	}
 	.menu {
@@ -214,7 +186,7 @@ button {
 	
 	button {
 		margin-bottom: 18px;
-	    font-size: 23px;
+	    font-size: 25px;
 	    font-family: 'Montserrat', sans-serif;
 	    text-transform: uppercase;
 	    font-weight: bold;
@@ -222,7 +194,7 @@ button {
 	    border: 4px solid black;
 	    width: 280px;
 		position: relative;
-		top: -50px;
+		top: -30px;
 	}
 		.rightmenu {
 		margin-top: -1150px;
@@ -291,7 +263,7 @@ button {
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
-		height: 3.25em;
+		/*height: 3.25em;*/
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
@@ -435,12 +407,12 @@ button {
 
 		@media screen and (max-width: 1680px) {
 
-			#header nav a[href="#menu"] {
-				padding-right: 10em !important;
-			}
+
 
 				#header nav a[href="#menu"]:last-child {
-					padding-right: 10em !important;
+					padding-right: 7em !important;
+					position: absolute;
+					top: -850px;
 				}
 
 		}
@@ -491,7 +463,7 @@ button {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 680px) {
 
 			#header .logo span {
 				display: none;
@@ -548,8 +520,9 @@ button {
 		position: fixed;
 		top: 0;
 		visibility: hidden;
-		width: 90%;
+		width: 88%;
 		z-index: 10002;
+	    font-family: 'Montserrat', sans-serif;
 	}
 
 		#menu .inner {
@@ -568,7 +541,7 @@ button {
 			overflow: auto;
 			text-align: center;
 			visibility: hidden;
-			width: 18em;
+			width: 38em;
 		}
 
 			#menu .inner > :first-child {
@@ -594,14 +567,16 @@ button {
 
 					#menu ul.links > li > a:not(.button) {
 						border: 0;
-						border-top: solid 1px rgba(212, 212, 255, 0.1);
+						border-top: solid 1px black;
 						display: block;
-						font-size: 0.8em;
+						font-size: 1.2em;
 						font-weight: 600;
 						letter-spacing: 0.25em;
-						line-height: 4em;
+						line-height: 5em;
 						text-decoration: none;
 						text-transform: uppercase;
+						color: #DC143C;
+						font-family: 'Montserrat', sans-serif;
 					}
 
 					#menu ul.links > li > .button {
@@ -623,7 +598,7 @@ button {
 			cursor: pointer;
 			display: block;
 			height: 4em;
-			line-height: 4em;
+			line-height: 20em;
 			overflow: hidden;
 			padding-right: 1.25em;
 			position: absolute;
