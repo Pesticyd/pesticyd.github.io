@@ -199,7 +199,7 @@ button {
 		margin-top: -1150px;
 	}
 	
-	@media screen and (max-width:480px){
+	@media screen and (max-width:580px){
 	.leftmenu h4{
 		margin-left: -33px;
 		margin-top: -6px;
@@ -556,7 +556,7 @@ button {
 	
 	@media screen and (max-width:1280px){
 		#menu{
-		width: 95%; 
+		width: 0%; 
 		}
 	}
 
